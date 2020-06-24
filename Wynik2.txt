@@ -1,0 +1,11 @@
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvq/RKLkNEUpkzGNliLLPuMGXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s20370>; rel="up"
+Last-Modified: Wed, 24 Jun 2020 21:19:22 GMT
+ETag: "5FI5nHnfMdhT1z77Q3mxDl"
+Date: Wed, 24 Jun 2020 21:24:43 GMT
+Content-Type: application/json
+Content-Length: 53
+
+'{name:kawa,description:bio,price:27.55,weight:1000}'

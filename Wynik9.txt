@@ -1,0 +1,11 @@
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvq9RmPkeIpTImMfKsN014wZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s20370>; rel="up"
+Last-Modified: Wed, 24 Jun 2020 21:46:31 GMT
+ETag: "23NNUIhHPMAikQoAQnZ6nI"
+Date: Wed, 24 Jun 2020 21:48:06 GMT
+Content-Type: application/json
+Content-Length: 15
+
+'{name:kompot}'

@@ -1,0 +1,25 @@
+
+1.
+curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"maslo","description":"pyszna to rzecz","price":4.99,"weight":200}' http://localhost:8098/buckets/s20370/keys/maslo
+curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"chleb","description":"dzisiaj pieczony","price":3.70,"weight":500}' http://localhost:8098/buckets/s20370/keys/chleb
+curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"kawa","description":"bio","price":27.55,"weight":1000}' http://localhost:8098/buckets/s20370/keys/kawa
+curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"cukier","description":"krysztal","price":3.29,"weight":1000}' http://localhost:8098/buckets/s20370/keys/cukier
+curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"sok","description":"pomaranczowy","price":4.40,"weight":750}' http://localhost:8098/buckets/s20370/keys/sok
+
+2. curl -i  http://localhost:8098/buckets/s20370/keys/kawa
+
+3. curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"sok","description":"pomaranczowy","price":4.40,"weight":750,"calories":336.75}' http://localhost:8098/buckets/s20370/keys/sok
+
+4. curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"sok","description":"pomaranczowy","price":15,"weight":750,"calories":336.75}' http://localhost:8098/buckets/s20370/keys/sok
+
+5. curl -XPUT -i -H "Content-Type:application/json" -d '{"name":"sok","description":"pomaranczowy","price":15,"calories":336,75}' http://localhost:8098/buckets/s20370/keys/sok
+
+6. curl -XDELETE -i http://localhost:8098/buckets/s20370/keys/sok
+
+7. curl -i  http://localhost:8098/buckets/s20370/keys/sok
+
+8. curl -XPOST -i -H "Content-Type:application/json" -d '{"name":"kompot"}' http://localhost:8098/buckets/s20370/keys
+
+9. curl -i  http://localhost:8098/buckets/s20370/keys/UyhIMKeL3X33ZsjpvchS5ErfHXy
+
+10. curl -XDELETE -i  http://localhost:8098/buckets/s20370/keys/UyhIMKeL3X33ZsjpvchS5ErfHXy
